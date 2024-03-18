@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Recipe</title>
+  <link rel="stylesheet" href="Share Recipes.css">
+</head>
+<body>
+<div class="video-container">
+  <video autoplay loop muted plays-inline class class="background-clip"> <source src = "images/video.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="content">
+    <h1 class="heading">Share Your Recipe</h1>
+<form id="recipeForm">
+
+      
+  <div class="form-group">
+        <label for="recipeName">Recipe Name:</label>
+        <input type="text" id="recipeName" name="recipeName" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" required></textarea>
+      </div>
+      
+      <div class="form-group">
+        <label for="How to Prepare">How to Prepare:</label>
+        <textarea id="instructions" name="instructions" required></textarea>
+      </div>
+      
+      <button type="submit">Submit</button>
+    
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2024 Recipe Sharing Platform</p>
+  </footer>
+</div>
+<script src="Share Recipes.js"></script>
+</body>
+</html>
+

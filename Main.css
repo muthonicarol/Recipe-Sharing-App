@@ -1,0 +1,112 @@
+.body{
+background-image: url(images/final.jpg);
+background-repeat:no-repeat;
+background-size: 100%;
+}
+.search{
+  padding-left:16px;
+  margin-right : 20px;
+}
+.submitbtn{
+margin-left:0px;
+border:none;
+color:red;
+
+}
+
+
+
+.about{
+color:whitesmoke;
+font-size: 20px;
+font-weight: bold;
+text-align: left;;
+}
+
+.heading{
+font-size:50px;
+font-weight:900px;
+text-align: center;
+Background-size:100px;
+background:linear-gradient(to right,red,pink);
+background-clip:text;
+color:transparent;
+}
+
+
+.navbar{
+Background-color:brown;
+display: flex;
+justify-content: space-between;
+padding:5px;
+border-radius:22px;
+box-shadow:2px 2px 20px rgba(0,0,0,3)
+
+}
+.navbar a{
+  float: left;
+  padding: 8px, 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; 
+  font-weight: bold;
+  transition:0.25s;
+}
+.navbar a:hover{
+background: rgd(56, 130, 209);
+color:white;
+}
+
+.footerP{
+color:blanchedalmond;
+font-size:20px;
+font-style:italic;
+}
+.footer{
+  text-align:center;
+  }
+.twitter:hover, .instagram:hover, .fb:hover{
+
+    opacity: 0.7;
+}
+
+.twitter{
+  background: #55ACEE;
+  color: white;
+  width:20px;
+  border-radius:50%;
+  font-size:30px;
+  padding:10px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.instagram{
+  background: #125688;
+  color: white;
+  width:20px;
+  border-radius:50%;
+  font-size:30px;
+  padding:10px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fb{
+  background: #3B5998;
+  color: white;
+  width:20px;
+  border-radius:50%;
+  font-size:30px;
+  padding:10px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+
+
+
+
+}
